@@ -1,0 +1,5 @@
+AC6 ORIGINAL INPUT
+
+La AC6 trata de crear tu propia forma de juegar. Al principio se nos da un codigo de un juego, en este juego de arriba aparece una fila de bolas de tres diferentes colores: ROJO, VERDE y AZUL. La idea del juego es destruir estas bolas antes de que lleguen hasta el final, para hacer esto abajo hay tres botones de estos tres colores, tenemos que fijarnos en el color de la primera bola que aparece y pulsar el boton correcto para destruir esta bola. Nuestra tarea era coger este codigo y intercambiar el input de los botones por otro, como ejemplo utilizar la voz.
+
+En mi caso he escogido utilizar la camara como input principal, en este caso el codigo no detecta los movimientos del usuario, sino que lée los pixeles de una zona en concreta y de ahí pilla un color. Para poder jugar es muy sencillo, en este proyecto hay una carptea donde hay adjunto tres fotos de los colores necesarios para jugar, lo que tienes que hacer es mostrar a la camara el color que necesitas y la camara pillara una area en concreto del centro, de ahí analizara los pixeles y interpretera el color que hayas escogido y si es el color correcto destruira la bola.
